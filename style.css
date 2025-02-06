@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+<style>
+    body{
+        background: #131b21;
+
+}
+
+    .container {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    svg#flower-frame {
+        height: 90vh;
+        width: 100%;
+
+    }
+
+    #Footer_group_1_,
+    [id^=PinkFlowerGroup],
+    [id^=BaseGroup] path,
+    [id^=LeafGroup] path,
+    g[id^=BudGroup] g[id^=BudGroup] g[id^=Bud],
+    [id^=Dots],
+    [id^=Flourish] {
+            visibility: hidden;
+    }
+    </style>
+    </body>
+    </html>
